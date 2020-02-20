@@ -1,7 +1,13 @@
 .Burger{
-    width: 50%;
-    height: 450px;
+    width: 30%;
+    height: 400px;
     text-align: center;
     margin: auto;
     overflow: scroll;
+}
+
+@media only screen and (max-width: 600px) {
+    .Burger{
+        width: 100%;
+    } 
 }
